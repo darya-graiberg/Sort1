@@ -24,7 +24,7 @@ public class BubbleSort {    // сортировка пузырьком по в�
         long startTime = System.currentTimeMillis();
         bubbleSort(smallArr);
         long endTime = System.currentTimeMillis();
-        System.out.println("Время выполнения для небольшого массива: " + (endTime - startTime) + " мс");    // 0 секунд
+        System.out.println("Время выполнения для небольшого массива: " + (endTime - startTime) + " мс");    // 0 миллисекунд
         System.out.println("Отсортированный массив:");  
         for (int i = 0; i < smallArr.length; i++) {
             System.out.print(smallArr[i] + " ");    // выводит 11 12 22 25 34 64 90  
